@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: gray; /* gray text */
+}
+
+/* Grid Layout */
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Section 1 (Sidebar) */
+.section-1 {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.section-1 h2 {
+    margin-bottom: 10px;
+    color: #fff; /* White text */
+}
+
+.section-1 p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: gray; /* gray text */
+}
+
+/* Social Media Icons */
+.section-1 a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: gray; /* gray */
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.section-1 a:hover {
+    color: #fff; /* White on hover */
+}
+
+/* Section 2 (Main Content) */
+.section-2 {
+    padding: 20px; 
+    max-width: 350px; 
+    margin: 0 auto; 
+}
+
+.section-2 h2 {
+    color: #fff; /* White text */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.section-2 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: gray; /* gray text */
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    color: gray; /* gray text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+    
+    .section-1, .section-2 {
+        text-align: center;
+    }
+}
