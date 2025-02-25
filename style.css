@@ -3,8 +3,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000; /* Black background */
-    color: gray; /* gray text */
+    background-color: #000;
+    color: gray;
 }
 
 /* Grid Layout */
@@ -25,26 +25,26 @@ body {
 
 .section-1 h2 {
     margin-bottom: 10px;
-    color: #fff; /* White text */
+    color: #fff;
 }
 
 .section-1 p {
     font-size: 16px;
     margin-bottom: 15px;
-    color: gray; /* gray text */
+    color: gray;
 }
 
 /* Social Media Icons */
 .section-1 a {
     font-size: 24px;
     margin: 0 10px;
-    color: gray; /* gray */
+    color: gray;
     text-decoration: none;
     transition: 0.3s ease;
 }
 
 .section-1 a:hover {
-    color: #fff; /* White on hover */
+    color: #fff;
 }
 
 /* Section 2 (Main Content) */
@@ -55,7 +55,7 @@ body {
 }
 
 .section-2 h2 {
-    color: #fff; /* White text */
+    color: #fff;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
@@ -63,7 +63,7 @@ body {
 .section-2 p {
     font-size: 16px;
     line-height: 1.6;
-    color: gray; /* gray text */
+    color: gray;
 }
 
 /* Lists */
@@ -76,7 +76,7 @@ li {
     margin: 5px 0;
     padding: 10px;
     font-size: 16px;
-    color: gray; /* gray text */
+    color: gray;
 }
 
 /* Responsive Design */
